@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f1eeee;
+ box-sizing: border-box;
+  }
+
+.page {
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+h1, h2, h3{
+    background-color: black;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 0px 10px 0;
+  }
+  
+p {
+    padding: 0px 10px 10px 10px;
+  }
+
+ul {
+    padding: 0px 10px 10px 10px;
+    list-style-position: inside;
+  }
+ol {
+    padding: 0px 10px 10px 10px;
+    list-style-position: inside;
+  }
+
+ul:first-of-type {
+    list-style: none;
+  }
+ul:last-of-type {
+    list-style: none;
+  }
