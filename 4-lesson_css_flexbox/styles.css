@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #E5E000; */
+}
+
+ body {
+  width: 1440px;
+  margin: 0 auto;
+  text-align: left;
+} 
+
+h1 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+p {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+
+  margin: 33px 0px 33px 0px;
+}
+
+.project-grid-item {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #000000;
+  margin: 29px 80px 29px 80px;
+
+  text-align: justify;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #FE1A19;
+}
+
+.header {
+  width: 1440px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0px 0px 0px 20px;
+}
+
+.projects-container {
+  /* padding: 20px 0; */
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 52px 50px 52px 50px; 
+}
+
+.projects {
+  width: 1440px;  
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0px 20px 0px 20px; 
+}
+
+.project {
+  width: 400px; 
+  height: 800px; 
+  /* display: flex; 
+  justify-content: space-between;
+  align-items: flex-start; */
+  flex-direction: column;
+  
+  border: 5px solid #E5E000;
+  border-radius: 30px;
+
+  font-family: 'Helvetica';
+  font-size: 25px;
+  line-height: 29px;
+  /* text-transform: uppercase; */
+
+  color: #FFFFFF;
+
+  /* margin: 0px 50px 0px 50px;  */
+
+  padding: 33px 33px 41px 33px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  height: 60px;
+  flex: 1;
+  background-color: #FE1A19;
+  /* border: 1px solid #fff; */
+
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+}
+
+.footer-two {
+  flex: 2;
+}
+
+.footer-one,
+.footer-three {
+  flex: initial;
+  width: 200px;
+  padding: 0px 00px 0px 20px;
+}

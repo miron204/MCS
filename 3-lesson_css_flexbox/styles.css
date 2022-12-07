@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #E5E000; */
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+  text-align: left;
+} 
+
+h1 {
+  font-family: 'Helvetica';
+  font-size: 50px;
+  line-height: 57px;
+
+  color: #FFFFFF;
+}
+
+p {
+  margin: 29px 0px 29px 0px;
+}
+
+.project-grid-item {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #000000;
+  margin: 29px 80px 29px 80px;
+
+  text-align: justify;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #E5E000;
+}
+
+.header {
+  width: 1440px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0px 0px 0px 80px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  height: 460px;
+  background-image: url("links-and-images/images/img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.projects-container {
+  padding: 20px 0;
+  background-color: #E5E000;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.projects {
+  /* width: 900px; */
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid #fff; */
+
+  font-family: 'Helvetica';
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+  padding: 0px 0px 0px 80px;
+}
+
+a {
+  color: #FFFFFF;
+  /* background-color: #76AEED; */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #76AEED;
+  /* background-color: #76AEED; */
+  text-decoration: underline;
+}
+
+ul {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #000000;
+  margin: 29px 0px 29px 40px;
+
+  text-align: justify;
+  
+  list-style-position: outside;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  height: 150px;
+  flex: 1;
+  background-color: #E5E000;
+  /* border: 1px solid #fff; */
+
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+}
+
+.footer-two {
+  flex: 2;
+}
+
+.footer-one,
+.footer-three {
+  flex: initial;
+  width: 600px;
+  padding: 0px 80px 0px 80px;
+}
