@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+  }
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.section {
+    width: 100%;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+    
+}
+  
+.footer,
+.header {
+    background-color: #0000FF;
+    height: 80px;
+
+    justify-content: space-between;
+
+    font-size: 25px;
+    color:#ffffff;
+    padding: 0px 30px 0px 30px;
+}
+
+.feature {
+    border: 5px solid #000000;
+    margin: 15px;
+    text-align: center;
+}
+
+/* Макет для мобильных */
+@media only screen and (max-width: 400px) {
+}
+
+  /* Макет для десктопов */
+@media only screen and (min-width: 401px) {
+    .page {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .feature {
+        width: 45%;
+        font-size: 50px;
+        height: 250px;
+        margin: 24px;
+    }
+    .header {
+        margin-bottom: 50px;
+    }
+    
+    .footer {
+        margin-top: 50px;
+    }
+}
