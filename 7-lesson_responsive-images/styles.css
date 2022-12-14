@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 1%; */
+}
+  
+.section {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header,
+.footer {
+    background-color: #FFE138;
+    height: 160px;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start;
+    padding: 25px 25px;
+
+    /* border: 1px solid #000000; */
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000000;
+}
+
+.illustration img {
+    width: 100%;
+    display: block;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+.description {
+    padding: 30px 33px;
+}
+
+/* Макет для мобильных */
+@media only screen and (max-width: 400px) {
+    .header,
+    .footer {
+        font-size: 25px;
+    }
+}
+
+/* .header {
+    height: auto;
+    justify-content: inherit;
+    align-items: inherit;
+} */
+
+/* Макет для планшетов */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .feature {
+        width: 50%;
+        padding: 70px 25px;
+    }
+}
+
+  /* Макет для десктопов */
+@media only screen and (min-width: 961px) {
+    .feature {
+        width: 33.33%;
+        padding: 70px 25px;
+    }
+}
